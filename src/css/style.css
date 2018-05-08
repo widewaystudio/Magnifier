@@ -1,0 +1,92 @@
+*{padding:0;margin:0;list-style:none;}
+body{
+	background-color:#ededed;
+}
+.platform{
+    position: absolute;
+    width:500px;
+	left:30%;
+	top:50%;
+	background-color:#fff;
+    margin-left:-250px;
+    margin-top:-304px;
+    min-height:500px;
+  }
+
+.platform .view-img{
+	position:relative;
+	float:left;
+}
+.platform .view-img .view{
+	width:500px;
+	height:500px;
+	background-color:#ddd;
+	margin-bottom:0px;
+	overflow:hidden;
+	cursor:move;
+}
+
+.platform .view-img .view img{
+	position:absolute;
+	display:block;
+}
+.platform .view-img .up-over{
+	background:url(../images/fg.png);
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:10;
+	cursor:move;
+
+}
+.platform .bottom-box{
+	display:block;
+	height:105px;
+	width:500px;
+	border:0px solid #000;
+	overflow:hidden;
+	padding-top:5px;
+}
+.platform .bottom-box ul{
+	width:500px;
+	display:block;
+
+}
+
+.platform .bottom-box ul li{
+	width:96px;
+	height:98px;
+	 background-color:#fff;
+	 display:block;
+	border:1px solid #efefef;
+   margin:0 1px;
+    float:left;
+    overflow:hidden;
+    margin-bottom:3px;
+
+}
+.platform .bottom-box ul li img{
+	width:100%;
+	min-height:100%;
+    cursor:pointer;
+
+}
+
+.platform .boost{
+    position:absolute;
+	width:500px;
+	height:500px;
+	left:510px;
+	top:0px;
+	background-color:#ededed;
+	box-shadow:1px 2px 5px rgba(0,0,0,.3);
+	overflow:hidden;
+}
+.platform .boost img{
+	display:block;
+	position:absolute;
+}
+.platform .bottom-box ul .active{
+	border:1px solid #ff8100;
+}
+
